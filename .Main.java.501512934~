@@ -1,0 +1,12 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    Tree tree = new Tree();
+    int[] 
+    Node node = tree.PreOrderBuildTree(num);
+    
+  }
+
+}
