@@ -22,8 +22,7 @@ The `buildPreOrderTree` method takes an array as an argument, where "-1" represe
 
 ## Example Usage
 
-// Uncomment the following line to take user input for tree values
-```java```
+### Uncomment the following line to take user input for tree values
  ```/*
      * Node root = tree.Populate(scanner);
      * System.out.println("Level-order traversal: ");
@@ -31,7 +30,8 @@ The `buildPreOrderTree` method takes an array as an argument, where "-1" represe
      * System.out.println();
      */
 ```
-// Example usage of buildPreOrderTree method
-```int[] treeArray = {1, 2, 3, 4, -1, 5, -1, -1, 6};
+### Example usage of buildPreOrderTree method
+```
+int[] treeArray = {1, 2, 3, 4, -1, 5, -1, -1, 6};
 Node root = buildPreOrderTree(treeArray);
 ```
