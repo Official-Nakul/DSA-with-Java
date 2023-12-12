@@ -89,7 +89,7 @@ class Tree {
     }
     postOrder(node.left);
     postOrder(node.right);
-    System.out.print(node.data+" ");
+    System.out.print(node.data + " ");
   }
 
   /*-------------- Prompting user to insert node value ---------------*/
@@ -121,4 +121,32 @@ class Tree {
       Populate(scanner, rightNode);
     }
   }
+
+  private int count = 0;
+
+  public int CountNodes(Node node) {
+    if (node == null) {
+      return 0;
+    }
+    count++;
+    CountNodes(node.left);
+    CountNodes(node.right);
+    return count;
+  }
+
+  private int sum = 0;
+
+  public int SumOfNodes(Node node) {
+    {
+      if(node == null)
+      {
+        return 0;
+      }
+      sum += node.data;
+      SumOfNodes(node.left);
+      SumOfNodes(node.right);
+      return sum;
+    }
+  }
+    
 }
