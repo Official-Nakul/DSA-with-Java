@@ -1,0 +1,9 @@
+*.classpath
+.settings/
+*.project
+*.class
+.upm/
+target/
+pom.xml
+.replit
+replit.nix
