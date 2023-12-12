@@ -23,7 +23,8 @@ The `buildPreOrderTree` method takes an array as an argument, where "-1" represe
 ## Example Usage
 
 ### Uncomment the following line to take user input for tree values
- ```/*
+ ```
+/*
      * Node root = tree.Populate(scanner);
      * System.out.println("Level-order traversal: ");
      * tree.LevelOrder(root);
