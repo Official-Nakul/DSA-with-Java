@@ -32,6 +32,6 @@ The `buildPreOrderTree` method takes an array as an argument, where "-1" represe
 ```
 ### Example usage of buildPreOrderTree method
 ```
-int[] treeArray = {1, 2, 3, 4, -1, 5, -1, -1, 6};
-Node root = buildPreOrderTree(treeArray);
+int[] num = {1, 2,-1,-1, 3, 4, -1, 5, -1, -1, 6,-1,-1};
+ Node node = tree.PreOrderBuildTree(num);
 ```
