@@ -23,11 +23,16 @@ class Main {
     tree.LevelOrder(node);
     System.out.println();
 
-    Node root = tree.Populate(scanner);
-    System.out.println("Level-order traversal: ");
-    tree.LevelOrder(root);
-    System.out.println();
-    
+    /*
+     * Node root = tree.Populate(scanner);
+     * System.out.println("Level-order traversal: ");
+     * tree.LevelOrder(root);
+     * System.out.println();
+     */
+
+    System.out.println("Number of Nodes: " + tree.CountNodes(node));
+    System.out.println("Sum of Nodes data: " + tree.SumOfNodes(node));
+
   }
 
 }
